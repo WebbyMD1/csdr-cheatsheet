@@ -98,3 +98,7 @@ normalized_timing_variance_u32_f  | It calculates the normalized timing variance
 | add_const_cc                      | It adds a constant value of i+q*j to each input sample. |
 | pattern_search_u8_u8              | It can be used for preamble search. It looks for a given sequence of N bytes (<pattern_values × N>) in the input data, and if the sequence is found, it reads the following <values_after> bytes and outputs them. The <pattern_values × N> parameter is read as unsigned integers. |
 | tee                               | Similarly to the tee command, it reads data from the standard input, and writes it to both a file and the standard output. |
+
+# ToDo
+
+categorise to make it easier to find a command by function
